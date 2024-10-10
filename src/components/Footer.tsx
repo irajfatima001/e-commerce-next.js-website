@@ -8,10 +8,10 @@ const Footer = () => {
     return (
         <footer className="bg-slate-200 text-emerald-900 py-8">
             <div className="container mx-auto px-4">
-                {/* Flex container for the entire footer */}
+                
                 <div className="flex flex-col md:flex-row justify-between items-start"> {/* Change items-center to items-start */}
 
-                    {/* Logo and Social Media Section */}
+                    
                     <div className="flex flex-col text-sm items-center md:items-start mb-4 md:mb-0 pr-10 pl-7">
                         <img src="/logo.png" alt="Company Logo" className="mb-4 mt-2 h-5" /> {/* Placeholder for logo */}
                         <div className="flex space-x-4 mb-2">

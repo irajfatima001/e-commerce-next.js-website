@@ -8,19 +8,19 @@ export default function About() {
     {
       name: "John Doe",
       role: "Founder",
-      image: "/u5.jpg", // Replace with your image paths
+      image: "/u5.jpg", 
       description: "John has over 20 years of experience in the furniture industry.",
     },
     {
       name: "Jane Smith",
       role: "Designer",
-      image: "/u2.jpg", // Replace with your image paths
+      image: "/u2.jpg", 
       description: "Jane specializes in modern interior design and loves creating beautiful spaces.",
     },
     {
       name: "Mike Johnson",
       role: "Sales Manager",
-      image: "/u3.jpg", // Replace with your image paths
+      image: "/u3.jpg", 
       description: "Mike is dedicated to helping customers find the perfect furniture for their homes.",
     },
   ];
