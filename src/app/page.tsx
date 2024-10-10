@@ -32,9 +32,9 @@ import chair7Img from "/public/dinning.jpg";
 import Image1 from "/public/Group 27.png";
 import Image2 from "/public/Group (1).png";
 import Image3 from "/public/Group.png";
-import Card2 from "/public/Card2.jpg";
-import Card3 from "/public/Card3.jpg";
-import Card1 from "/public/Card1.jpg";
+import Card2 from "/public/card2.jpg";
+import Card3 from "/public/card3.jpg";
+import Card1 from "/public/card1.jpg";
 
 const categories = [
   { name: "Living Room", img: livingImg },
@@ -387,13 +387,7 @@ export default function Home() {
                 <hr className="border-t-4 border-teal-900 rounded flex-grow mx-2" />
                 
               </div>
-              {/* <Image
-                src={livingImg} // Replace with your image path
-                alt="Featured Item 1"
-                width={300}
-                height={200}
-                className="w-full h-80 object-cover"
-              /> */}
+              
               <button className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-teal-500 text-white py-2 px-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 Explore All Rooms
               </button>
@@ -402,7 +396,7 @@ export default function Home() {
             {/* Card 2 */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden relative group">
               <Image
-                src={Card2} // Replace with your image path
+                src={Card2} 
                 alt="Featured Item 2"
                 width={300}
                 height={200}
@@ -416,7 +410,7 @@ export default function Home() {
             {/* Card 3 */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden relative group">
               <Image
-                src={Card3} // Replace with your image path
+                src={Card3} 
                 alt="Featured Item 3"
                 width={300}
                 height={200}
