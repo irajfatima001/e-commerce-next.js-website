@@ -13,7 +13,7 @@ const Footer = () => {
 
                     
                     <div className="flex flex-col text-sm items-center md:items-start mb-4 md:mb-0 pr-10 pl-7">
-                        <img src="/logo.png" alt="Company Logo" className="mb-4 mt-2 h-5" /> {/* Placeholder for logo */}
+                        <Image src="/logo.png" alt="Company Logo" className="mb-4 mt-2 h-5" /> {/* Placeholder for logo */}
                         <div className="flex space-x-4 mb-2">
                             <Image src={Facebook} alt="Facebook" className="h-4 w-4" />
                             <Image src={Instagram} alt="Instagram" className="h-4 w-4" />

@@ -8,7 +8,7 @@ import Image from "next/image";
 import Cart from "/public/cart.png";
 import User from "/public/user.png";
 import Search from "/public/search.png";
-import Logo from "/public/logo.png"
+
 
 
 const Navbar = () => {
@@ -27,7 +27,7 @@ const Navbar = () => {
       <nav className="flex justify-between items-center p-4 font-serif">
         <div className="text-2xl font-bold">
           <Link href="/">
-            <Image src={Logo} alt="logo" width={100} height={100}/>
+            <Image src="/logo.png" alt="logo" width={100} height={100}/>
           </Link>
         </div>
 

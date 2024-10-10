@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "@/components/Header";
 import Footer from '@/components/Footer';
+import Image from "next/image";
  
 
 export default function About() {
@@ -60,7 +61,7 @@ export default function About() {
 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
   {teamMembers.map((member) => (
     <div key={member.name} className="bg-teal-200 p-4 rounded-lg shadow-md">
-      <img
+      <Image
         src={member.image}
         alt={member.name}
         className="w-full h-68 object-cover rounded-lg mb-4"
